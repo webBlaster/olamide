@@ -12,8 +12,8 @@ body {
 }
 .darkoverlay {
     height:100vh;
+    display: none;
     width: 100%;
-    transition: 2s;
     position:fixed;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.562);
