@@ -1,5 +1,5 @@
 const menuToggle = document.querySelector(".overlay-trigger");
-const overlay = document.querySelector(".darkoverlay");
+const overlay = document.querySelector(".dark-overlay");
 
 const openOverlay = () => {
     overlay.style="display:block";
