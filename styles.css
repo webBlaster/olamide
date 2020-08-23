@@ -4,6 +4,7 @@ body {
   overflow-y: auto;
   margin: 0;
   padding: 0;
+  scrollbar-width: none !important;
 }
 
 .menu {
@@ -42,10 +43,15 @@ body {
 .album-container {
   white-space: nowrap;
   overflow: auto;
+  scrollbar-width: none !important;
 }
 
 .album-container .card {
   display: inline-block;
   margin: 4%;
+}
+
+.album-container .card .card-reveal {
+  overflow-y: unset !important;
 }
 /*# sourceMappingURL=styles.css.map */
