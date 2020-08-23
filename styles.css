@@ -38,4 +38,14 @@ body {
   margin: 0;
   padding: 30px;
 }
+
+.album-container {
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.album-container .card {
+  display: inline-block;
+  margin: 4%;
+}
 /*# sourceMappingURL=styles.css.map */
