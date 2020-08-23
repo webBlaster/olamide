@@ -1,4 +1,4 @@
-const menuToggle = document.querySelector(".overlay-trigger");
+const menu = document.querySelector(".overlay-trigger");
 const overlay = document.querySelector(".dark-overlay");
 
 const openOverlay = () => {
@@ -10,5 +10,5 @@ const closeOverlay = () => {
 }
 
 
-menuToggle.addEventListener("click", openOverlay);
+menu.addEventListener("click", openOverlay);
 overlay.addEventListener("click", closeOverlay);
