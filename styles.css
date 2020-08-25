@@ -9,6 +9,7 @@ body {
 
 .menu {
   position: fixed !important;
+  z-index: 9 !important;
   bottom: 13px;
   right: 10px;
 }
@@ -43,15 +44,10 @@ body {
 .album-container {
   white-space: nowrap;
   overflow: auto;
-  scrollbar-width: none !important;
 }
 
 .album-container .card {
   display: inline-block;
   margin: 4%;
-}
-
-.album-container .card .card-reveal {
-  overflow-y: unset !important;
 }
 /*# sourceMappingURL=styles.css.map */
