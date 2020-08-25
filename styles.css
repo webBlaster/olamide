@@ -50,4 +50,8 @@ body {
   display: inline-block;
   margin: 4%;
 }
+
+.album-container::-webkit-scrollbar {
+  display: none;
+}
 /*# sourceMappingURL=styles.css.map */
