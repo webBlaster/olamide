@@ -1,10 +1,12 @@
 body {
     width:100%;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto    ;
     margin:0;
     padding:0;
-    scrollbar-width: none !important;
+    body::-webkit-scrollbar {
+        display: none !important;
+    }
 }
 
 .menu {
@@ -49,4 +51,11 @@ body {
 
 .album-container::-webkit-scrollbar {
     display: none;
+}
+
+.subscribe-section {
+    padding-top:20vh !important;    
+}
+.subscribe {
+    margin: 10vh auto;
 }
