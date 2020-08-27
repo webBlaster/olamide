@@ -12,3 +12,10 @@ const closeOverlay = () => {
 
 menu.addEventListener("click", openOverlay);
 overlay.addEventListener("click", closeOverlay);
+
+
+ScrollReveal().reveal('.one', { delay: 1000 });
+ScrollReveal().reveal('.two', { delay: 1000 });
+ScrollReveal().reveal('.three', { delay: 1000 });
+ScrollReveal().reveal('.four'), { delay: 1000 };
+ScrollReveal().reveal('.five'), { delay: 1000 };
