@@ -46,6 +46,9 @@ body {
     .card {
         display: inline-block;
         margin:4%;
+        .card-reveal::-webkit-scrollbar {
+            display: none !important;
+        }
     }
 }
 

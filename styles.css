@@ -54,6 +54,10 @@ body body::-webkit-scrollbar {
   margin: 4%;
 }
 
+.album-container .card .card-reveal::-webkit-scrollbar {
+  display: none !important;
+}
+
 .album-container::-webkit-scrollbar {
   display: none;
 }
